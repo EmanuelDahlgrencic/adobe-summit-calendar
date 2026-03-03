@@ -17,9 +17,9 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 ORGANIZER;CN=IKEA IBM Team:mailto:OP-IKEAIBMTeam@ibm.onmicrosoft.com
-DESCRIPTION:\n[Screenshot 2026-02-26 at 08.34.18.png]Alexis Zamkow\, Global Offering Leader at IBM\,<https://www.linkedin.com/in/alexiszamkow/>\n
-UID:040000008200E00074C5B7101A82E00800000000E3C5F84570A5DC010000000000000000100000005938 82A169150B4787F1A07C21D7731E
-SUMMARY:Adobe Summit Session: Adapt or Disappear – Winning with AI‑Powered Search (CP6)
+DESCRIPTION:\nAlexis Zamkow\, Global Offering Leader at IBM\n
+UID:E3C5F84570A5DC01-CP6
+SUMMARY:Adobe Summit Session: Adapt or Disappear - Winning with AI-Powered Search (CP6)
 DTSTART:20260420T161500Z
 DTEND:20260420T164000Z
 CLASS:PUBLIC
@@ -37,8 +37,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN=IKEA IBM Team:mailto:OP-IKEAIBMTeam@ibm.onmicrosoft.com
-DESCRIPTION:\n[Screenshot 2026-02-26 at 08.32.07.png]\n\n\nIBM's Jay Trestain<https://www.linkedin.com/in/jay-trestain/>\n
-UID:040000008200E00074C5B7101A82E00800000000F370BE7870A5DC0100000000000000001000000031452F8F06599D4A97155848A9FB3468
+DESCRIPTION:\nIBM's Jay Trestain\n
+UID:F370BE7870A5DC01-S712
 SUMMARY:Adobe Summit Session: Three Ways to Grow Revenue with Agentic AI Orchestration (S712)
 DTSTART:20260420T173000Z
 DTEND:20260420T183000Z
@@ -57,9 +57,29 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 ORGANIZER;CN=IKEA IBM Team:mailto:OP-IKEAIBMTeam@ibm.onmicrosoft.com
-DESCRIPTION:[Screenshot 2026-02-26 at 08.33.30.png]\n\n
-UID:040000008200E00074C5B7101A82E00800000000378954FB70A5DC010000000000000000100000 00F9C4B123E5972F4DA6B9E1283B5325F9
-SUMMARY:Adobe Summit: 5 Lessons for Scaling an Agentic AI‑Powered Marketing Operating Model (S711)
+DESCRIPTION:Unwind with IBM and your peers after an energizing first day at Adobe Summit. Join us for a fun\, relaxed reception at Yardbird - just steps from the Summit floor. Enjoy food and drinks as you mingle with fellow leaders\, swap insights from the day\, and enjoy a lively\, welcoming atmosphere.
+UID:9D1B29CC70A5DC01-YARDBIRD
+SUMMARY:IBM Celebration Yardbird Reception
+DTSTART:20260421T013000Z
+DTEND:20260421T033000Z
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20260303T173135Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Yardbird Table & Bar\, 3355 S Las Vegas Blvd\, Las Vegas\, NV 89109
+BEGIN:VALARM
+DESCRIPTION:REMINDER
+TRIGGER;RELATED=START:-PT15M
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN=IKEA IBM Team:mailto:OP-IKEAIBMTeam@ibm.onmicrosoft.com
+DESCRIPTION:Senior IBM leaders share insights from implementing and scaling agentic AI-enabled marketing operating models.
+UID:378954FB70A5DC01-S711
+SUMMARY:Adobe Summit: 5 Lessons for Scaling an Agentic AI-Powered Marketing Operating Model (S711)
 DTSTART:20260421T193000Z
 DTEND:20260421T203000Z
 CLASS:PUBLIC
